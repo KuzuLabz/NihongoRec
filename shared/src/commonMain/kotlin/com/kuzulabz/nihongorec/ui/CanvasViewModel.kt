@@ -63,7 +63,6 @@ class CanvasViewModel(
         private set
 
     init {
-        // Initialize Onnx model on background coroutine
         viewModelScope.launch {
             try {
                 classifier.init()
@@ -77,7 +76,6 @@ class CanvasViewModel(
     fun updateThemeColor(color: Color) {
         if (currentColor != color) {
             currentColor = color
-            // Re-render canvas if strokes already exist under the previous color theme
             if (strokes.isNotEmpty() && lastWidth > 0 && lastHeight > 0) {
                 redrawBitmap(lastWidth, lastHeight)
             }
@@ -129,7 +127,7 @@ class CanvasViewModel(
     }
 
     fun finalizeActiveStroke(width: Int, height: Int) {
-        if (activePoints.isNotEmpty()) { // Changed from > 1
+        if (activePoints.isNotEmpty()) {
             strokes.add(activePoints.toList())
             redrawBitmap(width, height)
             classifyCanvasSnapshot()
@@ -143,7 +141,6 @@ class CanvasViewModel(
             return
         }
 
-        // Pop the last finished stroke from history
         if (strokes.isNotEmpty()) {
             strokes.removeAt(strokes.lastIndex)
             redrawBitmap(lastWidth, lastHeight)
@@ -174,7 +171,7 @@ class CanvasViewModel(
             size = Size(targetWidth.toFloat(), targetHeight.toFloat())
         ) {
             strokes.forEach { points ->
-                if (points.isNotEmpty()) { // Changed from > 1
+                if (points.isNotEmpty()) {
                     drawPath(
                         path = points.toSmoothPath(),
                         color = currentColor,
@@ -198,10 +195,8 @@ class CanvasViewModel(
     ) {
         if (oldSize.width <= 0f || oldSize.height <= 0f) return
 
-        // Uniform scale factor (Fit)
         val scale = min(newSize.width / oldSize.width, newSize.height / oldSize.height)
 
-        // Centering offsets
         val offsetX = (newSize.width - oldSize.width * scale) / 2f
         val offsetY = (newSize.height - oldSize.height * scale) / 2f
 
@@ -238,8 +233,6 @@ class CanvasViewModel(
             _uiState.value = _uiState.value.copy(isProcessing = true)
 
             try {
-                // Pass the primary user canvas directly.
-                // Dynamic spatial resizing and color inversion are handled in CharClassifierOnnx.
                 val results = classifier.classify(displayBitmap)
                 println("Predictions count: ${results.size}")
                 println(results.first().score)
@@ -258,9 +251,7 @@ class CanvasViewModel(
         }
     }
 
-    // Automatically called when the ViewModel is destroyed
     override fun onCleared() {
-        // Launch cleanup in a non-cancellable coroutine context
         viewModelScope.launch {
             withContext(NonCancellable + Dispatchers.Default) {
                 classifier.close()
