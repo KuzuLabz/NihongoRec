@@ -8,13 +8,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.*
-import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.dp
 
 fun List<Offset>.toSmoothPath(): Path {
     val path = Path()
@@ -77,8 +75,6 @@ private fun applyChaikinSmoothing(points: List<Offset>, iterations: Int): List<O
 
 @Composable
 fun DrawPad(width: Int, height: Int, viewModel: CanvasViewModel) {
-    val density = LocalDensity.current
-
     Canvas(
         modifier = Modifier
             .fillMaxSize()
@@ -87,11 +83,9 @@ fun DrawPad(width: Int, height: Int, viewModel: CanvasViewModel) {
                     val down = awaitFirstDown(requireUnconsumed = false)
                     viewModel.startActiveStroke(down.position)
 
-                    var dragged = false
                     drag(down.id) { change ->
                         change.consume()
                         viewModel.addActivePoint(change.position)
-                        dragged = true
                     }
 
                     viewModel.finalizeActiveStroke(width, height)

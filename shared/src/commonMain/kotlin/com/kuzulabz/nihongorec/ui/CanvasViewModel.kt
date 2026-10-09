@@ -62,9 +62,6 @@ class CanvasViewModel(
     var canvas: Canvas? = null
         private set
 
-    var redrawTrigger = 0
-        private set
-
     init {
         // Initialize Onnx model on background coroutine
         viewModelScope.launch {
@@ -193,7 +190,6 @@ class CanvasViewModel(
 
         bitmap = newBitmap
         canvas = targetCanvas
-        redrawTrigger++
     }
 
     private fun rescaleStrokes(
@@ -228,7 +224,6 @@ class CanvasViewModel(
         val newBitmap = ImageBitmap(b.width, b.height)
         bitmap = newBitmap
         canvas = Canvas(newBitmap)
-        redrawTrigger++
         _uiState.value = _uiState.value.copy(predictions = emptyPredictions)
     }
 
