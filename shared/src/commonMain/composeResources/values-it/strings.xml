@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">Impostazioni</string>
+    <string name="navigate_back">Torna indietro</string>
+    <string name="open_in_browser">Apri nel browser</string>
+    <string name="language">Lingua</string>
+    <string name="open_lang_settings">Apri impostazioni lingua</string>
+    <!--  General Section  -->
+    <string name="general">Generale</string>
+    <string name="show_grid">Mostra griglia</string>
+    <!--  Theme Section  -->
+    <string name="theme">Tema</string>
+    <string name="theme_color">Colore del tema</string>
+    <string name="color_scheme">Schema colori</string>
+    <string name="theme_style">Stile tema</string>
+    <string name="random_color_startup">Colore casuale all'avvio</string>
+    <string name="amoled_mode">Modalità AMOLED</string>
+    <string name="variant">Variante</string>
+    <string name="collapse">Comprimi</string>
+    <string name="expand">Espandi</string>
+    <!--  About Section  -->
+    <string name="about">Informazioni</string>
+    <string name="version">Versione</string>
+    <string name="kanji_rec_model">Modello di riconoscimento Kanji</string>
+    <string name="kanji_rec_model_creator">Creato da Dariyooo (DaAppLab)</string>
+    <string name="source_code">Codice sorgente</string>
+    <string name="website">Sito web</string>
+    <!--  Footer  -->
+    <string name="owner_message">Creato da Kuzulabz</string>
+    <!--  Other  -->
+    <string name="content-copy">Copia contenuto</string>
+    <string name="copy_message">Copiato '%1$s' negli appunti</string>
+    <string name="clear">Cancella</string>
+    <string name="undo">Annulla</string>
+    <!--  Theme Mode  -->
+    <string name="system">Di sistema</string>
+    <string name="light">Chiaro</string>
+    <string name="dark">Scuro</string>
+    <!--  Theme Style  -->
+    <string name="material">Material</string>
+    <string name="ink">Inchiostro</string>
+</resources>

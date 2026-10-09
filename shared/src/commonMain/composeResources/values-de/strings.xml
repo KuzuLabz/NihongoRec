@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">Einstellungen</string>
+    <string name="navigate_back">Zurück</string>
+    <string name="open_in_browser">Im Browser öffnen</string>
+    <string name="language">Sprache</string>
+    <string name="open_lang_settings">Spracheinstellungen öffnen</string>
+    <!--  General Section  -->
+    <string name="general">Allgemein</string>
+    <string name="show_grid">Raster anzeigen</string>
+    <!--  Theme Section  -->
+    <string name="theme">Design</string>
+    <string name="theme_color">Designfarbe</string>
+    <string name="color_scheme">Farbschema</string>
+    <string name="theme_style">Designstil</string>
+    <string name="random_color_startup">Zufallsfarbe beim Start</string>
+    <string name="amoled_mode">AMOLED-Modus</string>
+    <string name="variant">Variante</string>
+    <string name="collapse">Einklappen</string>
+    <string name="expand">Ausklappen</string>
+    <!--  About Section  -->
+    <string name="about">Über</string>
+    <string name="version">Version</string>
+    <string name="kanji_rec_model">Kanji-Erkennungsmodell</string>
+    <string name="kanji_rec_model_creator">Erstellt von Dariyooo (DaAppLab)</string>
+    <string name="source_code">Quellcode</string>
+    <string name="website">Website</string>
+    <!--  Footer  -->
+    <string name="owner_message">Erstellt von Kuzulabz</string>
+    <!--  Other  -->
+    <string name="content-copy">Inhalt kopieren</string>
+    <string name="copy_message">„%1$s“ in die Zwischenablage kopiert</string>
+    <string name="clear">Löschen</string>
+    <string name="undo">Rückgängig machen</string>
+    <!--  Theme Mode -->
+    <string name="system">System</string>
+    <string name="light">Hell</string>
+    <string name="dark">Dunkel</string>
+    <!--  Theme Style  -->
+    <string name="material">Material</string>
+    <string name="ink">Tinte</string>
+</resources>

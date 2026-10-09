@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">設定</string>
+    <string name="navigate_back">戻る</string>
+    <string name="open_in_browser">ブラウザで開く</string>
+    <string name="language">言語</string>
+    <string name="open_lang_settings">言語設定を開く</string>
+    <!--  General Section  -->
+    <string name="general">一般</string>
+    <string name="show_grid">グリッドを表示</string>
+    <!--  Theme Section  -->
+    <string name="theme">テーマ</string>
+    <string name="theme_color">テーマカラー</string>
+    <string name="color_scheme">カラー スキーム</string>
+    <string name="theme_style">テーマのスタイル</string>
+    <string name="random_color_startup">起動時にランダムカラーを適用</string>
+    <string name="amoled_mode">AMOLEDモード</string>
+    <string name="variant">バリアント</string>
+    <string name="collapse">折りたたむ</string>
+    <string name="expand">展開する</string>
+    <!--  About Section  -->
+    <string name="about">アプリについて</string>
+    <string name="version">バージョン</string>
+    <string name="kanji_rec_model">漢字認識モデル</string>
+    <string name="kanji_rec_model_creator">製作者: Dariyooo (DaAppLab)</string>
+    <string name="source_code">ソースコード</string>
+    <string name="website">ウェブサイト</string>
+    <!--  Footer  -->
+    <string name="owner_message">製作者: Kuzulabz</string>
+    <!--  Other  -->
+    <string name="content-copy">コンテンツのコピー</string>
+    <string name="copy_message">「%1$s」をクリップボードにコピーしました</string>
+    <string name="clear">消去</string>
+    <string name="undo">元に戻す</string>
+    <!--  Theme Mode  -->
+    <string name="system">システム</string>
+    <string name="light">ライト</string>
+    <string name="dark">ダーク</string>
+    <!--  Theme Style  -->
+    <string name="material">マテリアル</string>
+    <string name="ink">インク</string>
+</resources>

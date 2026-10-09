@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">Pengaturan</string>
+    <string name="navigate_back">Kembali</string>
+    <string name="open_in_browser">Buka di peramban</string>
+    <string name="language">Bahasa</string>
+    <string name="open_lang_settings">Buka pengaturan bahasa</string>
+    <!--  General Section  -->
+    <string name="general">Umum</string>
+    <string name="show_grid">Tampilkan Kisi</string>
+    <!--  Theme Section  -->
+    <string name="theme">Tema</string>
+    <string name="theme_color">Warna Tema</string>
+    <string name="color_scheme">Skema Warna</string>
+    <string name="theme_style">Gaya Tema</string>
+    <string name="random_color_startup">Warna Acak saat Memulai</string>
+    <string name="amoled_mode">Mode AMOLED</string>
+    <string name="variant">Varian</string>
+    <string name="collapse">Ciutkan</string>
+    <string name="expand">Bentangkan</string>
+    <!--  About Section  -->
+    <string name="about">Tentang</string>
+    <string name="version">Versi</string>
+    <string name="kanji_rec_model">Model Pengenalan Kanji</string>
+    <string name="kanji_rec_model_creator">Dibuat oleh Dariyooo (DaAppLab)</string>
+    <string name="source_code">Kode Sumber</string>
+    <string name="website">Situs Web</string>
+    <!--  Footer  -->
+    <string name="owner_message">Dibuat oleh Kuzulabz</string>
+    <!--  Other  -->
+    <string name="content-copy">Salin Konten</string>
+    <string name="copy_message">Menyalin '%1$s' ke papan klip</string>
+    <string name="clear">Hapus</string>
+    <string name="undo">Urungkan</string>
+    <!--  Theme Mode  -->
+    <string name="system">Sistem</string>
+    <string name="light">Terang</string>
+    <string name="dark">Gelap</string>
+    <!--  Theme Style  -->
+    <string name="material">Material</string>
+    <string name="ink">Tinta</string>
+</resources>

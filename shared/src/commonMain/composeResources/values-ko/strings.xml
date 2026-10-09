@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">설정</string>
+    <string name="navigate_back">뒤로 가기</string>
+    <string name="open_in_browser">브라우저에서 열기</string>
+    <string name="language">언어</string>
+    <string name="open_lang_settings">언어 설정 열기</string>
+    <!--  General Section  -->
+    <string name="general">일반</string>
+    <string name="show_grid">격자 표시</string>
+    <!--  Theme Section  -->
+    <string name="theme">테마</string>
+    <string name="theme_color">테마 색상</string>
+    <string name="color_scheme">색상 테마</string>
+    <string name="theme_style">테마 스타일</string>
+    <string name="random_color_startup">시작 시 무작위 색상 사용</string>
+    <string name="amoled_mode">AMOLED 모드</string>
+    <string name="variant">변형</string>
+    <string name="collapse">접기</string>
+    <string name="expand">펼치기</string>
+    <!--  About Section  -->
+    <string name="about">정보</string>
+    <string name="version">버전</string>
+    <string name="kanji_rec_model">한자 인식 모델</string>
+    <string name="kanji_rec_model_creator">Dariyooo (DaAppLab) 제작</string>
+    <string name="source_code">소스 코드</string>
+    <string name="website">웹사이트</string>
+    <!--  Footer  -->
+    <string name="owner_message">Kuzulabz 제작</string>
+    <!--  Other  -->
+    <string name="content-copy">내용 복사</string>
+    <string name="copy_message">'%1$s'이(가) 클립보드에 복사되었습니다</string>
+    <string name="clear">지우기</string>
+    <string name="undo">실행 취소</string>
+    <!--  Theme Mode  -->
+    <string name="system">시스템</string>
+    <string name="light">라이트</string>
+    <string name="dark">다크</string>
+    <!--  Theme Style  -->
+    <string name="material">머티리얼</string>
+    <string name="ink">잉크</string>
+</resources>

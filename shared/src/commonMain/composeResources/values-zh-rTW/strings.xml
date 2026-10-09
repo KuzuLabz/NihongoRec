@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">設定</string>
+    <string name="navigate_back">返回</string>
+    <string name="open_in_browser">在瀏覽器中打開</string>
+    <string name="language">語言</string>
+    <string name="open_lang_settings">開啟語言設定</string>
+    <!--  General Section  -->
+    <string name="general">一般</string>
+    <string name="show_grid">顯示網格</string>
+    <!--  Theme Section  -->
+    <string name="theme">主題</string>
+    <string name="theme_color">主題顏色</string>
+    <string name="color_scheme">配色方案</string>
+    <string name="theme_style">主題樣式</string>
+    <string name="random_color_startup">啟動時隨機顏色</string>
+    <string name="amoled_mode">AMOLED 模式</string>
+    <string name="variant">變體</string>
+    <string name="collapse">折疊</string>
+    <string name="expand">展開</string>
+    <!--  About Section  -->
+    <string name="about">關於</string>
+    <string name="version">版本</string>
+    <string name="kanji_rec_model">漢字識別模型</string>
+    <string name="kanji_rec_model_creator">由 Dariyooo (DaAppLab) 建立</string>
+    <string name="source_code">原始碼</string>
+    <string name="website">網站</string>
+    <!--  Footer  -->
+    <string name="owner_message">由 Kuzulabz 建立</string>
+    <!--  Other  -->
+    <string name="content-copy">複製內容</string>
+    <string name="copy_message">已將「%1$s」複製到剪貼簿</string>
+    <string name="clear">清除</string>
+    <string name="undo">復原</string>
+    <!--  Theme Mode  -->
+    <string name="system">隨系統設定</string>
+    <string name="light">淺色</string>
+    <string name="dark">深色</string>
+    <!--  Theme Style  -->
+    <string name="material">Material</string>
+    <string name="ink">水墨</string>
+</resources>

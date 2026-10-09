@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">Cài đặt</string>
+    <string name="navigate_back">Quay lại</string>
+    <string name="open_in_browser">Mở trong trình duyệt</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="open_lang_settings">Mở cài đặt ngôn ngữ</string>
+    <!--  General Section  -->
+    <string name="general">Chung</string>
+    <string name="show_grid">Hiển thị lưới</string>
+    <!--  Theme Section  -->
+    <string name="theme">Giao diện</string>
+    <string name="theme_color">Màu giao diện</string>
+    <string name="color_scheme">Phối màu</string>
+    <string name="theme_style">Kiểu giao diện</string>
+    <string name="random_color_startup">Ngẫu nhiên màu khi khởi động</string>
+    <string name="amoled_mode">Chế độ AMOLED</string>
+    <string name="variant">Biến thể</string>
+    <string name="collapse">Thu gọn</string>
+    <string name="expand">Mở rộng</string>
+    <!--  About Section  -->
+    <string name="about">Giới thiệu</string>
+    <string name="version">Phiên bản</string>
+    <string name="kanji_rec_model">Mô hình nhận dạng Hán tự</string>
+    <string name="kanji_rec_model_creator">Được tạo bởi Dariyooo (DaAppLab)</string>
+    <string name="source_code">Mã nguồn</string>
+    <string name="website">Trang web</string>
+    <!--  Footer  -->
+    <string name="owner_message">Được tạo bởi Kuzulabz</string>
+    <!--  Other  -->
+    <string name="content-copy">Sao chép nội dung</string>
+    <string name="copy_message">Đã sao chép '%1$s' vào khay nhớ tạm</string>
+    <string name="clear">Xóa</string>
+    <string name="undo">Hoàn tác</string>
+    <!--  Theme Mode  -->
+    <string name="system">Hệ thống</string>
+    <string name="light">Sáng</string>
+    <string name="dark">Tối</string>
+    <!--  Theme Style  -->
+    <string name="material">Material</string>
+    <string name="ink">Mực</string>
+</resources>

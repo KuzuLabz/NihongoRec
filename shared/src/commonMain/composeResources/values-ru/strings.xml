@@ -1,0 +1,42 @@
+<resources>
+    <!--  Settings  -->
+    <string name="settings">Настройки</string>
+    <string name="navigate_back">Назад</string>
+    <string name="open_in_browser">Открыть в браузере</string>
+    <string name="language">Язык</string>
+    <string name="open_lang_settings">Открыть настройки языка</string>
+    <!--  General Section  -->
+    <string name="general">Общие</string>
+    <string name="show_grid">Показывать сетку</string>
+    <!--  Theme Section  -->
+    <string name="theme">Тема</string>
+    <string name="theme_color">Цвет темы</string>
+    <string name="color_scheme">Цветовая схема</string>
+    <string name="theme_style">Стиль темы</string>
+    <string name="random_color_startup">Случайный цвет при запуске</string>
+    <string name="amoled_mode">Режим AMOLED</string>
+    <string name="variant">Вариант</string>
+    <string name="collapse">Свернуть</string>
+    <string name="expand">Развернуть</string>
+    <!--  About Section  -->
+    <string name="about">О приложение</string>
+    <string name="version">Версия</string>
+    <string name="kanji_rec_model">Модель распознавания кандзи</string>
+    <string name="kanji_rec_model_creator">Создано Dariyooo (DaAppLab)</string>
+    <string name="source_code">Исходный код</string>
+    <string name="website">Веб-сайт</string>
+    <!--  Footer  -->
+    <string name="owner_message">Создано Kuzulabz</string>
+    <!--  Other  -->
+    <string name="content-copy">Копировать содержимое</string>
+    <string name="copy_message">«%1$s» скопировано в буфер обмена</string>
+    <string name="clear">Очистить</string>
+    <string name="undo">Отменить</string>
+    <!--  Theme Mode  -->
+    <string name="system">Системная</string>
+    <string name="light">Светлая</string>
+    <string name="dark">Темная</string>
+    <!--  Theme Style  -->
+    <string name="material">Material</string>
+    <string name="ink">Чернила</string>
+</resources>
