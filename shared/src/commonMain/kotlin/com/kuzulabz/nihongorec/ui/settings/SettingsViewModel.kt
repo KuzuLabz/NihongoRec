@@ -20,7 +20,6 @@ class SettingsViewModel(
 ) : ViewModel() {
     val uiState: StateFlow<SettingsState> = repository.settingsState
         .onEach { state ->
-            // Apply language to JVM runtime dynamically when desktop state updates
             if (localeManager.supportsInAppSelection) {
                 localeManager.applyLocale(state.languageCode)
             }
@@ -79,6 +78,7 @@ class SettingsViewModel(
 
     fun onLanguageSelected(locale: AppLocale?) {
         if (locale != null && localeManager.supportsInAppSelection) {
+            localeManager.applyLocale(locale)
             viewModelScope.launch {
                 repository.setLanguageCode(locale)
             }
