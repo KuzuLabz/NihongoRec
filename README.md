@@ -8,6 +8,11 @@ A simple cross-platform Japanese character recognition app.
 
 <img width="270" height="606" alt="Screenshot_20261009_180211" src="https://github.com/user-attachments/assets/abb68c92-969f-4855-9a99-a856457f8e59" />
 
+## Features
+- 📝 Draw a Japanese character and get predictions
+- 🎨 UI theme customization
+- 🌐 Language support: English, Deutsch, Español, Français, Bahasa Indonesia, italiano, 日本語, 한국어, Português, Português (Brasil), Русский язык, Tiếng Việt, 简体中文, 繁體中文
+
 ## Requirements
 ### Windows
 The latest [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version) is required for onnxruntime inference. Without it, character predictions will not work. 
