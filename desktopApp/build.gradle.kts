@@ -30,7 +30,7 @@ compose.desktop {
 
         nativeDistributions {
             appResourcesRootDir.set(layout.buildDirectory.dir("generated/app-resources"))
-            targetFormats(TargetFormat.Pkg, TargetFormat.Exe, TargetFormat.Deb, TargetFormat.Rpm)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Exe, TargetFormat.Deb, TargetFormat.Rpm)
 
             modules("jdk.unsupported")
             modules("jdk.unsupported.desktop")
@@ -40,6 +40,19 @@ compose.desktop {
             }
 
             macOS {
+                bundleID = "com.kuzulabz.nihongorec"
+                packageVersion = "1.0.0"
+                appCategory = "public.app-category.education"
+                signing { 
+                    sign.set(true)
+                    identity.set(providers.environmentVariable("IDENTITY"))
+                }
+                notarization {
+                    val providers = project.providers
+                    appleID.set(providers.environmentVariable("NOTARIZATION_APPLE_ID"))
+                    password.set(providers.environmentVariable("NOTARIZATION_PASSWORD"))
+                    teamID.set(providers.environmentVariable("NOTARIZATION_TEAM_ID"))
+                }
                 iconFile.set(project.file("../icons/macos/AppIcon.icns"))
             }
 
